@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="#2D3748"/>
+  <path d="M64 20 L102 84 L64 72 L26 84 Z" fill="#5A67D8" stroke="#5A67D8" stroke-width="3" stroke-linejoin="round"/>
+  <text x="64" y="110" font-size="20" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-weight="bold">Prisma</text>
+</svg>
