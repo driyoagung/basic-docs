@@ -9,7 +9,8 @@
     "docs/react",
     "docs/tailwind",
     "docs/nextjs",
-    "docs/vue"
+    "docs/vue",
+    "docs/prisma"
   ],
   "scripts": {
     "dev:laravel": "npm run dev --workspace=laravel-docs",
@@ -17,17 +18,20 @@
     "dev:tailwind": "npm run dev --workspace=tailwind-docs",
     "dev:nextjs": "npm run dev --workspace=nextjs-docs",
     "dev:vue": "npm run dev --workspace=vue-docs",
+    "dev:prisma": "npm run dev --workspace=prisma-docs",
     "build:laravel": "npm run build --workspace=laravel-docs",
     "build:react": "npm run build --workspace=react-docs",
     "build:tailwind": "npm run build --workspace=tailwind-docs",
     "build:nextjs": "npm run build --workspace=nextjs-docs",
     "build:vue": "npm run build --workspace=vue-docs",
+    "build:prisma": "npm run build --workspace=prisma-docs",
     "build:all": "npm run build --workspaces --if-present",
     "preview:laravel": "npm run preview --workspace=laravel-docs",
     "preview:react": "npm run preview --workspace=react-docs",
     "preview:tailwind": "npm run preview --workspace=tailwind-docs",
     "preview:nextjs": "npm run preview --workspace=nextjs-docs",
     "preview:vue": "npm run preview --workspace=vue-docs",
+    "preview:prisma": "npm run preview --workspace=prisma-docs",
     "clean": "rimraf \"docs/*/.vitepress/dist\" \"docs/*/.vitepress/cache\""
   },
   "devDependencies": {
