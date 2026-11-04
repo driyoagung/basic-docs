@@ -58,7 +58,7 @@ export default defineConfig({
     footer: { message: 'Ebook Next.js 14 dalam Bahasa Indonesia' },
   },
   markdown: {
-    theme: { light: 'github-light', dark: 'github-dark' },
+    theme: { light: 'dracula', dark: 'dracula' },
     lineNumbers: true,
     container: {
       tipLabel: 'Tips',

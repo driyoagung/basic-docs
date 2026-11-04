@@ -1,3 +1,7 @@
+:root {
+  --vp-code-block-bg: #282a36;
+}
+
 .vp-sidebar-icon {
   display: inline-block;
   width: 16px;
