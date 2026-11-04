@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="20" fill="#9553E9"/>
+  <text x="64" y="70" font-size="40" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-weight="bold">IR</text>
+  <text x="64" y="106" font-size="14" text-anchor="middle" fill="#E7D8FF" font-family="sans-serif">Inertia React</text>
+</svg>

@@ -57,7 +57,7 @@ export default defineConfig({
   },
   markdown: {
     html: false,
-    theme: { light: 'github-light', dark: 'github-dark' },
+    theme: { light: 'dracula', dark: 'dracula' },
     lineNumbers: true,
     config(md) {
       md.renderer.rules.code_inline = (tokens, index) =>

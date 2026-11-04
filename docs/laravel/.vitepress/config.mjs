@@ -154,8 +154,8 @@ export default defineConfig({
 
   markdown: {
     theme: {
-      light: 'github-light',
-      dark: 'github-dark',
+      light: 'dracula',
+      dark: 'dracula',
     },
     lineNumbers: true,
     container: {

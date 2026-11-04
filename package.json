@@ -11,7 +11,8 @@
     "docs/nextjs",
     "docs/vue",
     "docs/prisma",
-    "docs/typescript"
+    "docs/typescript",
+    "docs/inertia-react"
   ],
   "scripts": {
     "dev:laravel": "npm run dev --workspace=laravel-docs",
@@ -21,6 +22,7 @@
     "dev:vue": "npm run dev --workspace=vue-docs",
     "dev:prisma": "npm run dev --workspace=prisma-docs",
     "dev:typescript": "npm run dev --workspace=typescript-docs",
+    "dev:inertia-react": "npm run dev --workspace=inertia-react-docs",
     "build:laravel": "npm run build --workspace=laravel-docs",
     "build:react": "npm run build --workspace=react-docs",
     "build:tailwind": "npm run build --workspace=tailwind-docs",
@@ -28,6 +30,7 @@
     "build:vue": "npm run build --workspace=vue-docs",
     "build:prisma": "npm run build --workspace=prisma-docs",
     "build:typescript": "npm run build --workspace=typescript-docs",
+    "build:inertia-react": "npm run build --workspace=inertia-react-docs",
     "build:all": "npm run build --workspaces --if-present",
     "preview:laravel": "npm run preview --workspace=laravel-docs",
     "preview:react": "npm run preview --workspace=react-docs",
@@ -36,6 +39,7 @@
     "preview:vue": "npm run preview --workspace=vue-docs",
     "preview:prisma": "npm run preview --workspace=prisma-docs",
     "preview:typescript": "npm run preview --workspace=typescript-docs",
+    "preview:inertia-react": "npm run preview --workspace=inertia-react-docs",
     "clean": "rimraf \"docs/*/.vitepress/dist\" \"docs/*/.vitepress/cache\""
   },
   "devDependencies": {
