@@ -9,7 +9,7 @@ export default defineConfig({
   appearance: 'dark',
 
   head: [
-    ['meta', { name: 'theme-color', content: '#5A67D8' }],
+    ['meta', { name: 'theme-color', content: '#42b883' }],
     ['meta', { name: 'og:title', content: 'Ebook Prisma ORM — From Raw SQL to Type-Safe Database' }],
     ['meta', { name: 'og:description', content: 'Panduan lengkap belajar Prisma ORM dalam Bahasa Indonesia' }],
     ['meta', { name: 'og:type', content: 'website' }],

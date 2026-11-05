@@ -13,7 +13,8 @@
     "docs/prisma",
     "docs/typescript",
     "docs/inertia-react",
-    "docs/inertia-vue"
+    "docs/inertia-vue",
+    "docs/mysql"
   ],
   "scripts": {
     "dev:laravel": "npm run dev --workspace=laravel-docs",
@@ -25,6 +26,7 @@
     "dev:typescript": "npm run dev --workspace=typescript-docs",
     "dev:inertia-react": "npm run dev --workspace=inertia-react-docs",
     "dev:inertia-vue": "npm run dev --workspace=inertia-vue-docs",
+    "dev:mysql": "npm run dev --workspace=mysql-docs",
     "build:laravel": "npm run build --workspace=laravel-docs",
     "build:react": "npm run build --workspace=react-docs",
     "build:tailwind": "npm run build --workspace=tailwind-docs",
@@ -34,6 +36,7 @@
     "build:typescript": "npm run build --workspace=typescript-docs",
     "build:inertia-react": "npm run build --workspace=inertia-react-docs",
     "build:inertia-vue": "npm run build --workspace=inertia-vue-docs",
+    "build:mysql": "npm run build --workspace=mysql-docs",
     "build:all": "npm run build --workspaces --if-present",
     "preview:laravel": "npm run preview --workspace=laravel-docs",
     "preview:react": "npm run preview --workspace=react-docs",
@@ -44,6 +47,7 @@
     "preview:typescript": "npm run preview --workspace=typescript-docs",
     "preview:inertia-react": "npm run preview --workspace=inertia-react-docs",
     "preview:inertia-vue": "npm run preview --workspace=inertia-vue-docs",
+    "preview:mysql": "npm run preview --workspace=mysql-docs",
     "clean": "rimraf \"docs/*/.vitepress/dist\" \"docs/*/.vitepress/cache\""
   },
   "devDependencies": {

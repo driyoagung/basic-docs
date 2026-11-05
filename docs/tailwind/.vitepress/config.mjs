@@ -10,7 +10,7 @@ export default defineConfig({
   appearance: 'light',
 
   head: [
-    ['meta', { name: 'theme-color', content: '#0ea5e9' }],
+    ['meta', { name: 'theme-color', content: '#42b883' }],
     ['meta', { name: 'og:title', content: 'Ebook Tailwind CSS — Panduan Lengkap' }],
     ['meta', { name: 'og:description', content: 'Panduan lengkap Tailwind CSS dalam Bahasa Indonesia' }],
     ['meta', { name: 'og:type', content: 'website' }],

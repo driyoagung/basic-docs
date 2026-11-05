@@ -10,7 +10,7 @@ export default defineConfig({
   appearance: 'dark',
 
   head: [
-    ['meta', { name: 'theme-color', content: '#9553E9' }],
+    ['meta', { name: 'theme-color', content: '#42b883' }],
     ['meta', { name: 'og:title', content: 'Ebook Laravel + Inertia.js + React' }],
     ['meta', { name: 'og:description', content: 'Panduan lengkap membangun aplikasi full stack modern dengan Laravel, Inertia.js, dan React' }],
     ['meta', { name: 'og:type', content: 'website' }],

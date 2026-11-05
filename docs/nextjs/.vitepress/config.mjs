@@ -36,7 +36,7 @@ export default defineConfig({
   lastUpdated: true,
   srcExclude: ['README.md', 'struktur-ebook-nextjs.md', 'Ebook Next.js 14*.md'],
   head: [
-    ['meta', { name: 'theme-color', content: '#111827' }],
+    ['meta', { name: 'theme-color', content: '#42b883' }],
     ['meta', { name: 'og:title', content: 'Ebook Next.js 14 — Dari React ke Blog CMS' }],
     ['meta', { name: 'og:description', content: 'Panduan Next.js 14 App Router dalam Bahasa Indonesia' }],
     ['meta', { name: 'og:type', content: 'website' }],

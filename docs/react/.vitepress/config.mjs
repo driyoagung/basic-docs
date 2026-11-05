@@ -9,7 +9,7 @@ export default defineConfig({
   appearance: 'dark',
 
   head: [
-    ['meta', { name: 'theme-color', content: '#61dafb' }],
+    ['meta', { name: 'theme-color', content: '#42b883' }],
     ['meta', { name: 'og:title', content: 'Ebook React — From Zero to Clone Airbnb' }],
     ['meta', { name: 'og:description', content: 'Panduan lengkap belajar React 19 dalam Bahasa Indonesia' }],
     ['meta', { name: 'og:type', content: 'website' }],
