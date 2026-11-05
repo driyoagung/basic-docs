@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <rect width="400" height="120" rx="16" fill="#ffffff"/>
+  <g transform="translate(40,30)">
+    <rect x="0" y="0" width="60" height="60" rx="8" fill="#FF2D20"/>
+    <text x="30" y="42" font-family="Arial" font-size="28" font-weight="700" fill="#fff" text-anchor="middle">L</text>
+  </g>
+  <text x="120" y="55" font-family="Arial" font-size="26" font-weight="700" fill="#1f2937">Laravel</text>
+  <text x="120" y="80" font-family="Arial" font-size="18" fill="#6b7280">+ Inertia + Vue</text>
+  <g transform="translate(290,28)">
+    <rect x="0" y="0" width="60" height="60" rx="8" fill="#42b883"/>
+    <text x="30" y="42" font-family="Arial" font-size="28" font-weight="700" fill="#fff" text-anchor="middle">V</text>
+  </g>
+</svg>

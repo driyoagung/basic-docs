@@ -1,3 +1,52 @@
 :root {
+  --vp-code-block-bg: #eff1f5;
+}
+
+.dark {
   --vp-code-block-bg: #282a36;
+}
+
+.hero-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  animation: hero-logos-float 6s ease-in-out infinite;
+}
+
+@keyframes hero-logos-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.hero-logo {
+  height: 72px;
+  width: auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
+}
+
+.hero-logo:hover {
+  transform: scale(1.08);
+}
+
+.dark .hero-logo {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 14px;
+  padding: 8px;
+  box-sizing: content-box;
+}
+
+.hero-logo-plus {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #9ca3af;
+  user-select: none;
+}
+
+@media (max-width: 640px) {
+  .hero-logo { height: 52px; }
+  .hero-logo-plus { font-size: 1.5rem; }
 }

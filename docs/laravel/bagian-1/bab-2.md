@@ -64,7 +64,7 @@ npm install && npm run dev
 
 ## 2.3 ⚙️ Konfigurasi File `.env`
 
-```env
+```ini
 # .env — konfigurasi environment (jangan commit ke Git!)
 
 APP_NAME=NamaAplikasi

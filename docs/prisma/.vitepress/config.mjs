@@ -27,13 +27,13 @@ export default defineConfig({
       {
         text: '📚 Daftar Bagian',
         items: [
-          { text: '🟢 Bagian I — Mengenal Prisma & Setup', link: '/bagian-1/index' },
-          { text: '🔵 Bagian II — Prisma Schema', link: '/bagian-2/index' },
-          { text: '🟡 Bagian III — Prisma Migrate', link: '/bagian-3/index' },
-          { text: '🟠 Bagian IV — CRUD & Query Dasar', link: '/bagian-4/index' },
-          { text: '🔴 Bagian V — Query Lanjutan & Relasi', link: '/bagian-5/index' },
-          { text: '🟣 Bagian VI — Prisma Lanjutan', link: '/bagian-6/index' },
-          { text: '⚫ Bagian VII — Performa & Best Practices', link: '/bagian-7/index' },
+          { text: '📘 Bagian I — Mengenal Prisma & Setup', link: '/bagian-1/index' },
+          { text: '🗂️ Bagian II — Prisma Schema', link: '/bagian-2/index' },
+          { text: '🚚 Bagian III — Prisma Migrate', link: '/bagian-3/index' },
+          { text: '🗃️ Bagian IV — CRUD & Query Dasar', link: '/bagian-4/index' },
+          { text: '🔗 Bagian V — Query Lanjutan & Relasi', link: '/bagian-5/index' },
+          { text: '🧠 Bagian VI — Prisma Lanjutan', link: '/bagian-6/index' },
+          { text: '🚀 Bagian VII — Performa & Best Practices', link: '/bagian-7/index' },
           { text: '🏆 Bagian VIII — Project REST API', link: '/bagian-8/index' },
         ],
       },
@@ -50,7 +50,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '🟢 Bagian I — Mengenal Prisma & Setup',
+        text: '📘 Bagian I — Mengenal Prisma & Setup',
         collapsed: false,
         items: [
           { text: '🗺️ Peta Bagian I', link: '/bagian-1/index' },
@@ -60,7 +60,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🔵 Bagian II — Prisma Schema: Jantung Prisma',
+        text: '🗂️ Bagian II — Prisma Schema: Jantung Prisma',
         collapsed: true,
         items: [
           { text: '🧭 Roadmap Bagian II', link: '/bagian-2/index' },
@@ -70,7 +70,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟡 Bagian III — Prisma Migrate',
+        text: '🚚 Bagian III — Prisma Migrate',
         collapsed: true,
         items: [
           { text: '🎨 Overview Bagian III', link: '/bagian-3/index' },
@@ -79,7 +79,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟠 Bagian IV — CRUD & Query Dasar',
+        text: '🗃️ Bagian IV — CRUD & Query Dasar',
         collapsed: true,
         items: [
           { text: '🏪 Ringkasan Bagian IV', link: '/bagian-4/index' },
@@ -90,7 +90,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🔴 Bagian V — Query Lanjutan & Relasi',
+        text: '🔗 Bagian V — Query Lanjutan & Relasi',
         collapsed: true,
         items: [
           { text: '🌐 Overview Bagian V', link: '/bagian-5/index' },
@@ -100,7 +100,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟣 Bagian VI — Prisma Lanjutan',
+        text: '🧠 Bagian VI — Prisma Lanjutan',
         collapsed: true,
         items: [
           { text: '🚀 Ringkasan Bagian VI', link: '/bagian-6/index' },
@@ -110,7 +110,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '⚫ Bagian VII — Performa & Best Practices',
+        text: '🚀 Bagian VII — Performa & Best Practices',
         collapsed: true,
         items: [
           { text: '⚡ Overview Bagian VII', link: '/bagian-7/index' },
@@ -161,7 +161,7 @@ export default defineConfig({
 
   markdown: {
     theme: {
-      light: 'dracula',
+      light: 'catppuccin-latte',
       dark: 'dracula',
     },
     lineNumbers: true,

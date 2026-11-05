@@ -122,7 +122,7 @@ php artisan queue:listen
 
 ## 21.2 🔧 Konfigurasi Queue
 
-```env
+```ini
 # .env
 
 QUEUE_CONNECTION=database  # Bisa: sync, database, redis, sqs, beanstalkd

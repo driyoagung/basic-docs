@@ -10,15 +10,18 @@ const sections = [
   { title: 'Project Clone Netflix', chapters: ['Project Clone Netflix dengan TMDB API'] },
 ]
 
+const sectionEmojis = ['🚀', '🧩', '📜', '⚙️', '🧭', '🧪', '🎬']
+const chapterEmojis = ['📘', '🔧', '🧩', '📝', '⚡', '🧮', '🔗', '🕳️', '🔄', '📜', '📚', '🚚', '⚙️', '🧰', '🎯', '🧠', '🧭', '🗺️', '🍍', '🧠', '📡', '🛠️', '🧪', '🎬']
+
 let chapterNumber = 0
 const sidebar = sections.map((section, index) => ({
-  text: `Bagian ${index + 1} — ${section.title}`,
+  text: `${sectionEmojis[index]} Bagian ${index + 1} — ${section.title}`,
   collapsed: index !== 0,
   items: [
-    { text: 'Peta Bagian', link: `/bagian-${index + 1}/index` },
+    { text: '🗺️ Peta Bagian', link: `/bagian-${index + 1}/index` },
     ...section.chapters.map((chapter) => {
       chapterNumber += 1
-      return { text: `Bab ${chapterNumber} — ${chapter}`, link: `/bagian-${index + 1}/bab-${chapterNumber}` }
+      return { text: `${chapterEmojis[chapterNumber - 1]} Bab ${chapterNumber} — ${chapter}`, link: `/bagian-${index + 1}/bab-${chapterNumber}` }
     }),
   ],
 }))
@@ -44,7 +47,7 @@ export default defineConfig({
       { text: 'Beranda', link: '/' },
       { text: 'Mulai Belajar', link: '/bagian-1/bab-1' },
       { text: 'Daftar Bagian', items: sections.map((section, index) => ({
-        text: `Bagian ${index + 1} — ${section.title}`,
+        text: `${sectionEmojis[index]} Bagian ${index + 1} — ${section.title}`,
         link: `/bagian-${index + 1}/index`,
       })) },
       { text: 'Dokumentasi Vue', link: 'https://vuejs.org/guide/introduction.html' },
@@ -57,7 +60,7 @@ export default defineConfig({
   },
   markdown: {
     html: false,
-    theme: { light: 'dracula', dark: 'dracula' },
+    theme: { light: 'catppuccin-latte', dark: 'dracula' },
     lineNumbers: true,
     config(md) {
       md.renderer.rules.code_inline = (tokens, index) =>

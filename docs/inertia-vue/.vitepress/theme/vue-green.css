@@ -1,0 +1,189 @@
+/**
+ * Tema hijau Vue.js
+ * Palet:
+ *  - Vue Green  : #42b883
+ *  - Vue Dark    : #35495e
+ *  - Vue Light   : #b3ffd0 (hover/acent lembut)
+ *  - Light mode  : #3ba776 (aksen utama)
+ *  - Dark mode   : #42b883
+ */
+
+:root {
+  /* Brand primary */
+  --vp-c-brand-1: #3ba776;
+  --vp-c-brand-2: #42b883;
+  --vp-c-brand-3: #4ec78f;
+  --vp-c-brand-soft: rgba(66, 184, 131, 0.14);
+
+  /* Tombol utama */
+  --vp-button-brand-bg: #42b883;
+  --vp-button-brand-hover-bg: #4ec78f;
+  --vp-button-brand-active-bg: #3ba776;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-active-text: #ffffff;
+
+  /* Hero name & link */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #42b883 30%, #35495e);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #42b88333 50%, #35495e22 50%);
+  --vp-home-hero-image-filter: blur(40px);
+
+  --vp-c-brand: var(--vp-c-brand-2);
+  --vp-c-brand-light: var(--vp-c-brand-3);
+  --vp-c-brand-lightest: #5dd5a3;
+  --vp-c-brand-dark: var(--vp-c-brand-1);
+  --vp-c-brand-darker: #2f9568;
+
+  /* Code block */
+  --vp-code-line-highlight-color: rgba(66, 184, 131, 0.16);
+  --vp-code-copy-code-hover-bg: #42b883;
+  --vp-code-copy-code-hover-text: #ffffff;
+
+  /* Tip / info container */
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-border: var(--vp-c-brand-2);
+  --vp-custom-block-tip-text: var(--vp-c-brand-1);
+
+  /* Search */
+  --vp-local-search-highlight-color: var(--vp-c-brand-2);
+
+  /* Sidebar active link */
+  --vp-sidebar-active-text-color: var(--vp-c-brand-2);
+}
+
+.dark {
+  --vp-c-brand-1: #42b883;
+  --vp-c-brand-2: #4ec78f;
+  --vp-c-brand-3: #5dd5a3;
+  --vp-c-brand-soft: rgba(66, 184, 131, 0.16);
+
+  --vp-button-brand-bg: #42b883;
+  --vp-button-brand-hover-bg: #5dd5a3;
+  --vp-button-brand-active-bg: #3ba776;
+
+  --vp-custom-block-tip-text: #4ec78f;
+}
+
+/* Tombol aksi primary jadi hijau */
+:root {
+  --vp-button-brand-bg: #42b883;
+  --vp-button-brand-hover-bg: #4ec78f;
+  --vp-button-brand-active-bg: #3ba776;
+}
+
+/* Navbar link hover */
+:root {
+  --vp-c-gutter: rgba(66, 184, 131, 0.2);
+}
+
+/* Pagination "next/prev" arrow */
+:root {
+  --vp-prev-next-bar-hover-bg: var(--vp-c-brand-soft);
+}
+
+/* Beri sentuhan Vue logo (hijau ↘ abu-abu) pada hero gradient */
+:root {
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #42b883 30%, #35495e);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-image-background-image: radial-gradient(ellipse at top, #42b88355, transparent 60%),
+    radial-gradient(ellipse at bottom, #35495e44, transparent 60%);
+}
+
+/* === Hero logos - 3 logo berdampingan === */
+.hero-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  animation: hero-logos-float 6s ease-in-out infinite;
+}
+
+@keyframes hero-logos-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.hero-logo {
+  height: 72px;
+  width: auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
+}
+
+.hero-logo:hover {
+  transform: scale(1.08);
+}
+
+.hero-logo-laravel {
+  height: 80px;
+}
+
+.hero-logo-vue {
+  height: 64px;
+}
+
+.hero-logo-plus {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #9ca3af;
+  user-select: none;
+}
+
+@media (max-width: 480px) {
+  .hero-logo {
+    height: 52px;
+  }
+  .hero-logo-laravel {
+    height: 58px;
+  }
+  .hero-logo-vue {
+    height: 48px;
+  }
+  .hero-logo-plus {
+    font-size: 1.5rem;
+  }
+}
+
+/* === Navbar logo (Inertia.png) === */
+.VPNavBar .logo {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 6px 0;
+}
+
+.VPNavBar .logo img {
+  height: 32px;
+  width: auto;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08));
+  transition: transform 0.2s ease;
+}
+
+.VPNavBar .logo img:hover {
+  transform: scale(1.05);
+}
+
+/* Dark mode - terangi sedikit agar terlihat */
+.dark .VPNavBar .logo img {
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3)) brightness(1.1);
+}
+
+/* Sidebar logo di header mobile */
+.VPSidebar .logo img,
+.VPNavBarMenu .logo img {
+  height: 28px;
+}
+
+:root {
+  --vp-code-block-bg: #eff1f5;
+}
+
+.dark {
+  --vp-code-block-bg: #282a36;
+}

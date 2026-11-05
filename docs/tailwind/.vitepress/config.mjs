@@ -28,12 +28,12 @@ export default defineConfig({
       {
         text: '📚 Daftar Bagian',
         items: [
-          { text: '🟢 Bagian I — Fondasi Tailwind', link: '/bagian-1/index' },
-          { text: '🔵 Bagian II — Layout & Spacing', link: '/bagian-2/index' },
-          { text: '🟡 Bagian III — Typography & Colors', link: '/bagian-3/index' },
-          { text: '🟠 Bagian IV — Komponen UI', link: '/bagian-4/index' },
-          { text: '🔴 Bagian V — Responsive & Dark Mode', link: '/bagian-5/index' },
-          { text: '🟣 Bagian VI — Kustomisasi & Design System', link: '/bagian-6/index' },
+          { text: '🎨 Bagian I — Fondasi Tailwind', link: '/bagian-1/index' },
+          { text: '📐 Bagian II — Layout & Spacing', link: '/bagian-2/index' },
+          { text: '🔤 Bagian III — Typography & Colors', link: '/bagian-3/index' },
+          { text: '🧱 Bagian IV — Komponen UI', link: '/bagian-4/index' },
+          { text: '📱 Bagian V — Responsive & Dark Mode', link: '/bagian-5/index' },
+          { text: '⚙️ Bagian VI — Kustomisasi & Design System', link: '/bagian-6/index' },
           { text: '🏗️ Bagian VII — Project Landing Page', link: '/bagian-7/index' },
         ],
       },
@@ -49,7 +49,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '🟢 Bagian I — Fondasi Tailwind CSS',
+        text: '🎨 Bagian I — Fondasi Tailwind CSS',
         collapsed: false,
         items: [
           { text: '🗺️ Peta Bagian I', link: '/bagian-1/index' },
@@ -59,7 +59,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🔵 Bagian II — Layout & Spacing',
+        text: '📐 Bagian II — Layout & Spacing',
         collapsed: true,
         items: [
           { text: '🗺️ Peta Bagian II', link: '/bagian-2/index' },
@@ -69,7 +69,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟡 Bagian III — Typography & Colors',
+        text: '🔤 Bagian III — Typography & Colors',
         collapsed: true,
         items: [
           { text: '🗺️ Peta Bagian III', link: '/bagian-3/index' },
@@ -78,7 +78,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟠 Bagian IV — Komponen UI dengan Tailwind',
+        text: '🧱 Bagian IV — Komponen UI dengan Tailwind',
         collapsed: true,
         items: [
           { text: '🗺️ Peta Bagian IV', link: '/bagian-4/index' },
@@ -88,7 +88,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🔴 Bagian V — Responsive & Dark Mode',
+        text: '📱 Bagian V — Responsive & Dark Mode',
         collapsed: true,
         items: [
           { text: '🗺️ Peta Bagian V', link: '/bagian-5/index' },
@@ -97,7 +97,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟣 Bagian VI — Kustomisasi & Design System',
+        text: '⚙️ Bagian VI — Kustomisasi & Design System',
         collapsed: true,
         items: [
           { text: '🗺️ Peta Bagian VI', link: '/bagian-6/index' },
@@ -149,7 +149,7 @@ export default defineConfig({
 
   markdown: {
     theme: {
-      light: 'dracula',
+      light: 'catppuccin-latte',
       dark: 'dracula',
     },
     lineNumbers: true,

@@ -217,7 +217,7 @@ composer install --optimize-autoloader --no-dev
 php artisan event:cache
 ```
 
-```env
+```ini
 # .env (production)
 APP_DEBUG=false
 APP_ENV=production

@@ -1,7 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { icon, badge } from './icons.mjs'
 
-const bintang = badge()
 
 export default defineConfig({
   title: 'Ebook Laravel + Inertia React',
@@ -30,13 +28,13 @@ export default defineConfig({
       {
         text: '📚 Daftar Bagian',
         items: [
-          { text: '🟢 Bagian I — Fondasi Inertia', link: '/bagian-1/index' },
-          { text: '🔵 Bagian II — Pages, Navigasi & Layout', link: '/bagian-2/index' },
-          { text: '🟡 Bagian III — Data Sharing & Props', link: '/bagian-3/index' },
-          { text: '🟠 Bagian IV — Form, Validasi & Upload', link: '/bagian-4/index' },
-          { text: '🔴 Bagian V — CRUD & Data Table', link: '/bagian-5/index' },
-          { text: '🟣 Bagian VI — Autentikasi & Otorisasi', link: '/bagian-6/index' },
-          { text: '⚫ Bagian VII — Error, SSR, Performa, Testing', link: '/bagian-7/index' },
+          { text: '🚀 Bagian I — Fondasi Inertia', link: '/bagian-1/index' },
+          { text: '🧭 Bagian II — Pages, Navigasi & Layout', link: '/bagian-2/index' },
+          { text: '📡 Bagian III — Data Sharing & Props', link: '/bagian-3/index' },
+          { text: '📝 Bagian IV — Form, Validasi & Upload', link: '/bagian-4/index' },
+          { text: '🗃️ Bagian V — CRUD & Data Table', link: '/bagian-5/index' },
+          { text: '🛡️ Bagian VI — Autentikasi & Otorisasi', link: '/bagian-6/index' },
+          { text: '🧪 Bagian VII — Error, SSR, Performa, Testing', link: '/bagian-7/index' },
           { text: '🏆 Bagian VIII — Project & Deployment', link: '/bagian-8/index' },
         ],
       },
@@ -53,81 +51,81 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: `${icon('rocket-launch', '#16a34a')} Bagian I — Fondasi Inertia`,
+        text: `🚀 Bagian I — Fondasi Inertia`,
         collapsed: false,
         items: [
-          { text: `${icon('map')} Peta Bagian I`, link: '/bagian-1/index' },
-          { text: `${icon('book-open')} Bab 1 — Mengenal Inertia.js`, link: '/bagian-1/bab-1' },
-          { text: `${icon('wrench-screwdriver')} Bab 2 — Setup Project`, link: '/bagian-1/bab-2' },
-          { text: `${icon('arrow-path')} Bab 3 — Cara Kerja Inertia ${bintang}`, link: '/bagian-1/bab-3' },
+          { text: `🗺️ Peta Bagian I`, link: '/bagian-1/index' },
+          { text: `📘 Bab 1 — Mengenal Inertia.js`, link: '/bagian-1/bab-1' },
+          { text: `🔧 Bab 2 — Setup Project`, link: '/bagian-1/bab-2' },
+          { text: `🔄 Bab 3 — Cara Kerja Inertia ⭐`, link: '/bagian-1/bab-3' },
         ],
       },
       {
-        text: `${icon('rectangle-group', '#2563eb')} Bagian II — Pages, Navigasi & Layout`,
+        text: `🧭 Bagian II — Pages, Navigasi & Layout`,
         collapsed: true,
         items: [
-          { text: `${icon('map')} Roadmap Bagian II`, link: '/bagian-2/index' },
-          { text: `${icon('document')} Bab 4 — Pages & Rendering`, link: '/bagian-2/bab-4' },
-          { text: `${icon('link')} Bab 5 — Navigasi: Link & Router`, link: '/bagian-2/bab-5' },
-          { text: `${icon('window')} Bab 6 — Layout & Head`, link: '/bagian-2/bab-6' },
+          { text: `🗺️ Roadmap Bagian II`, link: '/bagian-2/index' },
+          { text: `📄 Bab 4 — Pages & Rendering`, link: '/bagian-2/bab-4' },
+          { text: `🔗 Bab 5 — Navigasi: Link & Router`, link: '/bagian-2/bab-5' },
+          { text: `🪟 Bab 6 — Layout & Head`, link: '/bagian-2/bab-6' },
         ],
       },
       {
-        text: `${icon('share', '#d97706')} Bagian III — Data Sharing & Props`,
+        text: `📡 Bagian III — Data Sharing & Props`,
         collapsed: true,
         items: [
-          { text: `${icon('map')} Overview Bagian III`, link: '/bagian-3/index' },
-          { text: `${icon('share')} Bab 7 — Shared Data ${bintang}`, link: '/bagian-3/bab-7' },
-          { text: `${icon('bolt')} Bab 8 — Props Lanjutan (Inertia v2)`, link: '/bagian-3/bab-8' },
+          { text: `🗺️ Overview Bagian III`, link: '/bagian-3/index' },
+          { text: `📡 Bab 7 — Shared Data ⭐`, link: '/bagian-3/bab-7' },
+          { text: `⚡ Bab 8 — Props Lanjutan (Inertia v2)`, link: '/bagian-3/bab-8' },
         ],
       },
       {
-        text: `${icon('pencil-square', '#ea580c')} Bagian IV — Form, Validasi & Upload`,
+        text: `📝 Bagian IV — Form, Validasi & Upload`,
         collapsed: true,
         items: [
-          { text: `${icon('map')} Ringkasan Bagian IV`, link: '/bagian-4/index' },
-          { text: `${icon('pencil-square')} Bab 9 — useForm & Validasi ${bintang}`, link: '/bagian-4/bab-9' },
-          { text: `${icon('arrow-up-tray')} Bab 10 — Upload File`, link: '/bagian-4/bab-10' },
-          { text: `${icon('bell')} Bab 11 — Flash Message, Toast & UX Form`, link: '/bagian-4/bab-11' },
+          { text: `🗺️ Ringkasan Bagian IV`, link: '/bagian-4/index' },
+          { text: `📝 Bab 9 — useForm & Validasi ⭐`, link: '/bagian-4/bab-9' },
+          { text: `📤 Bab 10 — Upload File`, link: '/bagian-4/bab-10' },
+          { text: `🔔 Bab 11 — Flash Message, Toast & UX Form`, link: '/bagian-4/bab-11' },
         ],
       },
       {
-        text: `${icon('table-cells', '#dc2626')} Bagian V — CRUD & Data Table`,
+        text: `🗃️ Bagian V — CRUD & Data Table`,
         collapsed: true,
         items: [
-          { text: `${icon('map')} Overview Bagian V`, link: '/bagian-5/index' },
-          { text: `${icon('circle-stack')} Bab 12 — CRUD Lengkap`, link: '/bagian-5/bab-12' },
-          { text: `${icon('magnifying-glass')} Bab 13 — Pagination, Search & Filter`, link: '/bagian-5/bab-13' },
-          { text: `${icon('table-cells')} Bab 14 — Membentuk Data: Eloquent Resource`, link: '/bagian-5/bab-14' },
+          { text: `🗺️ Overview Bagian V`, link: '/bagian-5/index' },
+          { text: `🗃️ Bab 12 — CRUD Lengkap`, link: '/bagian-5/bab-12' },
+          { text: `🔎 Bab 13 — Pagination, Search & Filter`, link: '/bagian-5/bab-13' },
+          { text: `🧱 Bab 14 — Membentuk Data: Eloquent Resource`, link: '/bagian-5/bab-14' },
         ],
       },
       {
-        text: `${icon('shield-check', '#7c3aed')} Bagian VI — Autentikasi & Otorisasi`,
+        text: `🛡️ Bagian VI — Autentikasi & Otorisasi`,
         collapsed: true,
         items: [
-          { text: `${icon('map')} Ringkasan Bagian VI`, link: '/bagian-6/index' },
-          { text: `${icon('lock-closed')} Bab 15 — Autentikasi dengan Breeze`, link: '/bagian-6/bab-15' },
-          { text: `${icon('shield-check')} Bab 16 — Otorisasi & RBAC di Frontend`, link: '/bagian-6/bab-16' },
+          { text: `🗺️ Ringkasan Bagian VI`, link: '/bagian-6/index' },
+          { text: `🔐 Bab 15 — Autentikasi dengan Breeze`, link: '/bagian-6/bab-15' },
+          { text: `🛡️ Bab 16 — Otorisasi & RBAC di Frontend`, link: '/bagian-6/bab-16' },
         ],
       },
       {
-        text: `${icon('bug-ant', '#64748b')} Bagian VII — Error, SSR, Performa & Testing`,
+        text: `🧪 Bagian VII — Error, SSR, Performa & Testing`,
         collapsed: true,
         items: [
-          { text: `${icon('map')} Overview Bagian VII`, link: '/bagian-7/index' },
-          { text: `${icon('exclamation-triangle')} Bab 17 — Error Handling`, link: '/bagian-7/bab-17' },
-          { text: `${icon('globe-alt')} Bab 18 — SSR & SEO`, link: '/bagian-7/bab-18' },
-          { text: `${icon('rocket-launch')} Bab 19 — Performa & Optimasi`, link: '/bagian-7/bab-19' },
-          { text: `${icon('beaker')} Bab 20 — Testing`, link: '/bagian-7/bab-20' },
+          { text: `🗺️ Overview Bagian VII`, link: '/bagian-7/index' },
+          { text: `⚠️ Bab 17 — Error Handling`, link: '/bagian-7/bab-17' },
+          { text: `🌐 Bab 18 — SSR & SEO`, link: '/bagian-7/bab-18' },
+          { text: `🚀 Bab 19 — Performa & Optimasi`, link: '/bagian-7/bab-19' },
+          { text: `🧪 Bab 20 — Testing`, link: '/bagian-7/bab-20' },
         ],
       },
       {
-        text: `${icon('trophy', '#ca8a04')} Bagian VIII — Project & Deployment`,
+        text: `🏆 Bagian VIII — Project & Deployment`,
         collapsed: true,
         items: [
-          { text: `${icon('map')} Capstone Overview`, link: '/bagian-8/index' },
-          { text: `${icon('academic-cap')} Bab 21 — Dashboard Produk + RBAC`, link: '/bagian-8/bab-21' },
-          { text: `${icon('cloud-arrow-up')} Bab 22 — Deployment`, link: '/bagian-8/bab-22' },
+          { text: `🗺️ Capstone Overview`, link: '/bagian-8/index' },
+          { text: `🏗️ Bab 21 — Dashboard Produk + RBAC`, link: '/bagian-8/bab-21' },
+          { text: `☁️ Bab 22 — Deployment`, link: '/bagian-8/bab-22' },
         ],
       },
     ],
@@ -165,7 +163,7 @@ export default defineConfig({
 
   markdown: {
     theme: {
-      light: 'dracula',
+      light: 'catppuccin-latte',
       dark: 'dracula',
     },
     lineNumbers: true,
