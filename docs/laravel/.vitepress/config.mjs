@@ -9,7 +9,7 @@ export default defineConfig({
   appearance: 'dark',
 
   head: [
-    ['meta', { name: 'theme-color', content: '#ff2d20' }],
+    ['meta', { name: 'theme-color', content: '#42b883' }],
     ['meta', { name: 'og:title', content: 'Ebook Laravel — From Zero to Production' }],
     ['meta', { name: 'og:description', content: 'Panduan lengkap belajar Laravel 12 dalam Bahasa Indonesia' }],
     ['meta', { name: 'og:type', content: 'website' }],

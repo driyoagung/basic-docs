@@ -10,7 +10,7 @@ export default defineConfig({
   appearance: 'dark',
 
   head: [
-    ['meta', { name: 'theme-color', content: '#3178C6' }],
+    ['meta', { name: 'theme-color', content: '#42b883' }],
     ['meta', { name: 'og:title', content: 'Ebook TypeScript — Dari JavaScript ke React & Next.js' }],
     ['meta', { name: 'og:description', content: 'Panduan lengkap belajar TypeScript dalam Bahasa Indonesia' }],
     ['meta', { name: 'og:type', content: 'website' }],
