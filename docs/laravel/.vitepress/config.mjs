@@ -27,12 +27,12 @@ export default defineConfig({
       {
         text: '📚 Daftar Bagian',
         items: [
-          { text: '🟢 Bagian I — Fondasi Laravel', link: '/bagian-1/index' },
-          { text: '🔵 Bagian II — Core Concepts', link: '/bagian-2/index' },
-          { text: '🟡 Bagian III — Database & Eloquent', link: '/bagian-3/index' },
-          { text: '🟠 Bagian IV — Autentikasi & Keamanan', link: '/bagian-4/index' },
-          { text: '🔴 Bagian V — REST API', link: '/bagian-5/index' },
-          { text: '🟣 Bagian VI — Level Up', link: '/bagian-6/index' },
+          { text: '🚀 Bagian I — Fondasi Laravel', link: '/bagian-1/index' },
+          { text: '🧩 Bagian II — Core Concepts', link: '/bagian-2/index' },
+          { text: '🗄️ Bagian III — Database & Eloquent', link: '/bagian-3/index' },
+          { text: '🔐 Bagian IV — Autentikasi & Keamanan', link: '/bagian-4/index' },
+          { text: '🔌 Bagian V — REST API', link: '/bagian-5/index' },
+          { text: '⚡ Bagian VI — Level Up', link: '/bagian-6/index' },
           { text: '🏗️ Bagian VII — Project E-Commerce', link: '/bagian-7/index' },
         ],
       },
@@ -47,7 +47,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '🟢 Bagian I — Fondasi Laravel',
+        text: '🚀 Bagian I — Fondasi Laravel',
         collapsed: false,
         items: [
           { text: '🗺️ Peta Bagian I', link: '/bagian-1/index' },
@@ -58,7 +58,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🔵 Bagian II — Core Concepts Laravel',
+        text: '🧩 Bagian II — Core Concepts Laravel',
         collapsed: true,
         items: [
           { text: '🧭 Roadmap Bagian II', link: '/bagian-2/index' },
@@ -70,7 +70,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟡 Bagian III — Database & Eloquent ORM',
+        text: '🗄️ Bagian III — Database & Eloquent ORM',
         collapsed: true,
         items: [
           { text: '🗃️ Overview Bagian III', link: '/bagian-3/index' },
@@ -81,7 +81,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟠 Bagian IV — Autentikasi & Keamanan',
+        text: '🔐 Bagian IV — Autentikasi & Keamanan',
         collapsed: true,
         items: [
           { text: '🔐 Ringkasan Bagian IV', link: '/bagian-4/index' },
@@ -91,7 +91,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🔴 Bagian V — REST API Development',
+        text: '🔌 Bagian V — REST API Development',
         collapsed: true,
         items: [
           { text: '📡 Overview Bagian V', link: '/bagian-5/index' },
@@ -102,7 +102,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟣 Bagian VI — Level Up',
+        text: '⚡ Bagian VI — Level Up',
         collapsed: true,
         items: [
           { text: '⚡ Ringkasan Bagian VI', link: '/bagian-6/index' },
@@ -154,7 +154,7 @@ export default defineConfig({
 
   markdown: {
     theme: {
-      light: 'dracula',
+      light: 'catppuccin-latte',
       dark: 'dracula',
     },
     lineNumbers: true,

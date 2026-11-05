@@ -309,7 +309,7 @@ const nextConfig = {
 module.exports = nextConfig
 ```
 
-```env
+```ini
 # .env.local — Variabel environment (JANGAN commit ke Git!)
 DATABASE_URL="postgresql://..."
 NEXTAUTH_URL="http://localhost:3000"

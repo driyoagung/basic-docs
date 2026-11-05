@@ -27,12 +27,12 @@ export default defineConfig({
       {
         text: '📚 Daftar Bagian',
         items: [
-          { text: '🟢 Bagian I — Fondasi React', link: '/bagian-1/index' },
-          { text: '🔵 Bagian II — Hooks React Modern', link: '/bagian-2/index' },
-          { text: '🟡 Bagian III — Pola Desain Komponen', link: '/bagian-3/index' },
-          { text: '🟠 Bagian IV — State Management', link: '/bagian-4/index' },
-          { text: '🔴 Bagian V — Ekosistem React', link: '/bagian-5/index' },
-          { text: '🟣 Bagian VI — Level Up', link: '/bagian-6/index' },
+          { text: '⚛️ Bagian I — Fondasi React', link: '/bagian-1/index' },
+          { text: '🪝 Bagian II — Hooks React Modern', link: '/bagian-2/index' },
+          { text: '🧩 Bagian III — Pola Desain Komponen', link: '/bagian-3/index' },
+          { text: '🗃️ Bagian IV — State Management', link: '/bagian-4/index' },
+          { text: '🧭 Bagian V — Ekosistem React', link: '/bagian-5/index' },
+          { text: '⚡ Bagian VI — Level Up', link: '/bagian-6/index' },
           { text: '🏠 Bagian VII — Project Clone Airbnb', link: '/bagian-7/index' },
         ],
       },
@@ -48,7 +48,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '🟢 Bagian I — Fondasi React',
+        text: '⚛️ Bagian I — Fondasi React',
         collapsed: false,
         items: [
           { text: '🗺️ Peta Bagian I', link: '/bagian-1/index' },
@@ -59,7 +59,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🔵 Bagian II — Hooks: Jantung React Modern',
+        text: '🪝 Bagian II — Hooks: Jantung React Modern',
         collapsed: true,
         items: [
           { text: '🧭 Roadmap Bagian II', link: '/bagian-2/index' },
@@ -71,7 +71,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟡 Bagian III — Pola Desain Komponen',
+        text: '🧩 Bagian III — Pola Desain Komponen',
         collapsed: true,
         items: [
           { text: '🎨 Overview Bagian III', link: '/bagian-3/index' },
@@ -81,7 +81,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟠 Bagian IV — State Management',
+        text: '🗃️ Bagian IV — State Management',
         collapsed: true,
         items: [
           { text: '🏪 Ringkasan Bagian IV', link: '/bagian-4/index' },
@@ -92,7 +92,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🔴 Bagian V — Ekosistem React',
+        text: '🧭 Bagian V — Ekosistem React',
         collapsed: true,
         items: [
           { text: '🌐 Overview Bagian V', link: '/bagian-5/index' },
@@ -104,7 +104,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🟣 Bagian VI — Level Up',
+        text: '⚡ Bagian VI — Level Up',
         collapsed: true,
         items: [
           { text: '🚀 Ringkasan Bagian VI', link: '/bagian-6/index' },
@@ -155,7 +155,7 @@ export default defineConfig({
 
   markdown: {
     theme: {
-      light: 'dracula',
+      light: 'catppuccin-latte',
       dark: 'dracula',
     },
     lineNumbers: true,

@@ -1,0 +1,17 @@
+{
+  "name": "inertia-vue-docs",
+  "version": "1.0.0",
+  "description": "Dokumentasi Laravel + Inertia.js + Vue.js dalam Bahasa Indonesia",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "dev:host": "vitepress dev --host",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.4.38"
+  }
+}
